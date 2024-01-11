@@ -299,7 +299,6 @@ p1<-ggplot()+
   scale_x_continuous(expand=c(0,0),limits = c(0,51000),breaks = seq(0,50000,5000))
 
 ggsave("variance-n.pdf", plot = p1, height = 3, width = 4)
-write.csv(data,"variance-n.csv")
 
 
 ##Generate data and draw the figure of fig.3
